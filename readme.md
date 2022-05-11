@@ -1,5 +1,11 @@
-# Ismail Halili
+# Ismail Halili und Valentin Kiefl
 
 ## Image Upload Service
 
-Uploads an image and returns it in the GET-request. The first image found in the uploads directory is returned. RequestLogger middleware only logs the request object.
+The API should run and work after:
+
+-   npm install
+-   adding .env file and setting `DB_URL` and `MASTER_KEY` look example.env
+-   npm run db:migrations
+-   npm run db:seed
+-   npm run dev (making changes should restart the server)

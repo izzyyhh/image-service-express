@@ -7,3 +7,5 @@ Model.knex(
         connection: process.env.DB_URL,
     })
 )
+
+module.exports = Model
