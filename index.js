@@ -6,7 +6,7 @@ const requestLogger = require('./middlewares/requestlogger')
 
 const app = express()
 
-//app.use(requestLogger)
+app.use(requestLogger)
 app.use(express.json())
 
 app.use('/api', apiRoutes)
