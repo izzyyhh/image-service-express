@@ -1,6 +1,4 @@
-# Ismail Halili und Valentin Kiefl
-
-## Image Upload Service
+# Image Upload Service
 
 The API should run and work after:
 
